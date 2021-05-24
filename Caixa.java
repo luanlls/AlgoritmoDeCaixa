@@ -6,8 +6,8 @@ public class Caixa {
 
     public static void main(String[] args) {
 
-        long cpf; //123L
-        int senha; //123
+        long cpf; //12345678900L
+        int senha; //01020304
         double deposito, saque, saldo = 1000.00;
         int caixa = 0, menu, menuf;
         int contador;
@@ -22,7 +22,7 @@ public class Caixa {
             cpf = ler.nextLong();
             System.out.println("");
 
-            if (cpf != 123) {
+            if (cpf != 12345678900) {
                 
                 System.out.println("TELA DE ACESSO NAO PERMITIDA!");
                 System.exit(0);
@@ -40,7 +40,7 @@ public class Caixa {
                     senha = ler.nextInt();
                     System.out.println("");
 
-                    if (senha != 123) {
+                    if (senha != 01020304) {
                         System.out.println("VOCE TEM: " + (3 - contador) + " TENTATIVAS(S) ");
                     } else {
 

@@ -6,8 +6,8 @@ public class Caixa {
 
     public static void main(String[] args) {
 
-        long cpfv, cpf = 123L;
-        int senhav, senha = 123;
+        long cpfv, cpf = 12345678900L;
+        int senhav, senha = 01020304;
         int menu = 0, menuf;
         float saldo = 1000.00f;
         int contador = 0, contador2 = 0;

@@ -89,7 +89,7 @@ public class Caixa {
 
                         default:
                             System.out.println("");
-                            System.out.println("OPERA«√O INVALIDA");
+                            System.out.println("OPERA√á√ÉO INVALIDA");
                     }
 
                     for (int l = 0; l < 10; l++) {
